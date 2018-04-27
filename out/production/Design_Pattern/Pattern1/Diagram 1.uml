@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="48.872727272727275" y="673.0">Pattern1.Main</node>
+    <node x="295.83333333333326" y="0.0">Pattern1.Item</node>
+    <node x="10.5" y="519.0">Pattern1.Waiter</node>
+    <node x="281.5" y="519.5">Pattern1.ChickenBurgerBuilder</node>
+    <node x="273.33333333333326" y="129.0">Pattern1.Burger</node>
+    <node x="330.0" y="307.0">Pattern1.BurgerBuilder</node>
+    <node x="501.5" y="519.5">Pattern1.BeefBurgerBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pattern1.Main" target="Pattern1.Waiter">
+      <point x="24.75" y="-27.5" />
+      <point x="172.62272727272727" y="653.0" />
+      <point x="198.75" y="653.0" />
+      <point x="62.75" y="52.0" />
+    </edge>
+    <edge source="Pattern1.BurgerBuilder" target="Pattern1.Burger">
+      <point x="67.66666666666669" y="-76.0" />
+      <point x="499.16666666666663" y="277.0" />
+      <point x="436.23333333333323" y="277.0" />
+      <point x="72.39999999999998" y="64.0" />
+    </edge>
+    <edge source="Pattern1.Waiter" target="Pattern1.Burger">
+      <point x="-83.66666666666669" y="-52.0" />
+      <point x="52.333333333333314" y="499.0" />
+      <point x="93.4143939393939" y="499.0" />
+      <point x="93.4143939393939" y="287.0" />
+      <point x="327.6333333333333" y="287.0" />
+      <point x="-36.19999999999999" y="64.0" />
+    </edge>
+    <edge source="Pattern1.BeefBurgerBuilder" target="Pattern1.BurgerBuilder">
+      <point x="-46.5" y="-51.5" />
+      <point x="548.0" y="499.0" />
+      <point x="460.5" y="499.0" />
+      <point x="29.0" y="76.0" />
+    </edge>
+    <edge source="Pattern1.ChickenBurgerBuilder" target="Pattern1.BurgerBuilder">
+      <point x="-50.0" y="-51.5" />
+      <point x="331.5" y="499.0" />
+      <point x="402.5" y="499.0" />
+      <point x="-29.0" y="76.0" />
+    </edge>
+    <edge source="Pattern1.Main" target="Pattern1.BurgerBuilder">
+      <point x="74.25" y="-27.5" />
+      <point x="222.12272727272727" y="653.0" />
+      <point x="698.0" y="653.0" />
+      <point x="698.0" y="479.0" />
+      <point x="518.5" y="479.0" />
+      <point x="87.0" y="76.0" />
+    </edge>
+    <edge source="Pattern1.Waiter" target="Pattern1.BurgerBuilder">
+      <point x="83.66666666666669" y="-52.0" />
+      <point x="219.66666666666669" y="489.0" />
+      <point x="373.5" y="489.0" />
+      <point x="-58.0" y="76.0" />
+    </edge>
+    <edge source="Pattern1.Main" target="Pattern1.Burger">
+      <point x="-74.25" y="-27.5" />
+      <point x="73.62272727272727" y="653.0" />
+      <point x="0.0" y="653.0" />
+      <point x="0.0" y="277.0" />
+      <point x="291.4333333333333" y="277.0" />
+      <point x="-72.39999999999998" y="64.0" />
+    </edge>
+    <edge source="Pattern1.Burger" target="Pattern1.Item">
+      <point x="0.0" y="-64.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="315.5" y="230.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

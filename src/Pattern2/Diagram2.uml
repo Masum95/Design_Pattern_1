@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="446.0">Pattern2.CoffeFactory</node>
+    <node x="207.0" y="0.0">Pattern2.Coffe</node>
+    <node x="302.0" y="446.0">Pattern2.CoffeDemo</node>
+    <node x="414.0" y="177.0">Pattern2.CoffeB</node>
+    <node x="207.0" y="177.0">Pattern2.CoffeA</node>
+    <node x="0.0" y="177.0">Pattern2.CoffeC</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Pattern2.CoffeC" target="Pattern2.Coffe">
+      <point x="0.0" y="-112.0" />
+      <point x="93.5" y="152.0" />
+      <point x="238.16666666666666" y="152.0" />
+      <point x="-62.33333333333334" y="63.5" />
+    </edge>
+    <edge source="Pattern2.CoffeA" target="Pattern2.Coffe">
+      <point x="0.0" y="-112.0" />
+      <point x="0.0" y="63.5" />
+    </edge>
+    <edge source="Pattern2.CoffeB" target="Pattern2.Coffe">
+      <point x="0.0" y="-112.0" />
+      <point x="507.5" y="152.0" />
+      <point x="362.83333333333337" y="152.0" />
+      <point x="62.33333333333337" y="63.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="106.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
